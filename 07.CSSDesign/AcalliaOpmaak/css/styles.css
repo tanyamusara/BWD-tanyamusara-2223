@@ -55,7 +55,7 @@ nav ul li .active {
 }
 
 .active:hover {
-background-color: #d46669;
+   background-color: #d46669;
 }
 
 .more a {
@@ -97,7 +97,7 @@ input[type=submit] {
    background-size: 100% 100%; 
    border: #B52025 4px solid;
    box-shadow: 10px 5px 5px #555151;
-  color: rgb(255, 255, 255);
+   color: rgb(255, 255, 255);
   
 }
 #banner p {
@@ -121,7 +121,7 @@ a:hover {
 }
 
 #content {
-justify-content: space-between;
+   justify-content: space-between;
 }
 
 #content h3 {
@@ -151,7 +151,7 @@ footer {
 }
 
 footer:hover{
-background:linear-gradient( #d7d1d1, #c9bbbb,);
+   background:linear-gradient( #d7d1d1, #c9bbbb,);
 }
 
 footer p {

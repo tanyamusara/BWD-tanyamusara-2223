@@ -1,0 +1,53 @@
+/**
+* Common Styles
+* @author Tanya Musara
+*/
+
+header {
+    border-bottom: 48px solid #E5E5E5;
+    margin: 0px 0px 48px 0px;
+
+}
+
+.wrapper {
+    box-sizing: border-box;
+}
+
+.button a {
+    padding: 4px 8px;
+}
+
+nav ul li {
+    margin: 24px 5px;
+}
+
+nav a {
+    padding: 3px 6px;
+}
+
+#slogan {
+    padding: 100px 0px;
+}
+
+main {
+    padding: 48px 0;
+}
+
+section p {
+    margin: 10px 0px 0px 0px;
+}
+
+
+
+aside ul li {
+    margin:12px 0px 0px 0px;
+    padding: 12px 0px 10px 80px;
+}
+
+footer {
+    padding: 36px 0px 40px 0px;
+}
+
+
+
+

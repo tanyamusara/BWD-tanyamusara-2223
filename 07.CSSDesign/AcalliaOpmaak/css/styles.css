@@ -39,9 +39,9 @@ nav ul {
 
 nav li a {
    padding: 4px 8px;
-   transition:  background-color 0.3s;
-   text-decoration: none;
    margin-left:20px;
+   text-decoration: none;
+   transition:  background-color 0.3s;
 }
 
 li a:hover {
@@ -60,10 +60,10 @@ nav ul li .active {
 
 .more a {
    border: #B52025 1px solid;
-   padding: 4px 8px;
-   color: #B52025;
-   transition: border 0.3s;
    border-radius: 3px;
+   color: #B52025;
+   padding: 4px 8px;
+   transition: border 0.3s;
 }
 
 .more a:hover {

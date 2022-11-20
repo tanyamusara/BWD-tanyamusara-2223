@@ -1,12 +1,12 @@
 /**
 * Common Styles
 * @author Tanya Musara
+*
 */
 
 header {
     border-bottom: 48px solid #E5E5E5;
-    margin: 0px 0px 48px 0px;
-
+    margin: 0px 0px 32px 0px;
 }
 
 .wrapper {
@@ -40,8 +40,8 @@ section p {
 
 
 aside ul li {
-    margin:12px 0px 0px 0px;
     padding: 12px 0px 10px 80px;
+    margin:12px 0px 0px 0px;
 }
 
 footer {

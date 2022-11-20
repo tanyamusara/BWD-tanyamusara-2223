@@ -1,0 +1,88 @@
+/**
+ * Layout styles for Desert Tours
+ *
+ * @author Tanya Musara
+ *
+ */
+
+/* GENERAL */
+/* ======= */
+
+.wrapper {
+       max-width: 960px;
+        margin-left:auto;
+    margin-right:auto;
+}
+
+/* HEADER */
+/* ====== */
+header .wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul {
+display: flex;
+justify-content: space-between;
+}
+
+header nav li {
+    margin: 0 5px;
+}
+
+/* MAIN */
+/* ====== */
+#gallery ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#gallery li {
+width: 23%;
+}
+
+#gallery img {
+    max-width: 100%;
+}
+
+/* CONTENT */
+/* ======= */
+#content {
+    display: flex;
+    justify-content: space-between;
+}
+
+#content .left {
+width: 65%;
+}
+
+.left img {
+float: left;
+margin-right:5px;
+}
+
+#content .right {
+    width: 30%;
+}
+
+.right img {
+    float: right;
+ margin-left: 5px;
+}
+
+/* DOORMAT */
+/* ======= */
+#doormat .wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* FOOTER */
+/* ======= */
+footer {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}

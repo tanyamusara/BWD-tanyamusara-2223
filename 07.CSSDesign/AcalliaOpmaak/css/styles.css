@@ -16,11 +16,15 @@ html {
 }
 
 body {
-   background-color:rgb(240, 234, 234);
+   background-color:#fcfcfc;
    border-radius:5px 5px 0 0;
    font-family: Roboto, sans-serif;
    font-size: 13px;
    line-height: 1.8;
+}
+
+p {
+   text-align: justify;
 }
 /* ... */
 
@@ -37,18 +41,20 @@ nav ul {
 }
 
 nav li a {
+   color: #000;
    padding: 4px 8px;
    margin-left:20px;
    text-decoration: none;
-   transition:  background-color 0.3s;
+   transition:background-color 0.3s;
+   
 }
 
 li a:hover {
-   background-color: #B52025;
+   background-color: #b52025;
 }
 
 nav ul li .active {
-   background-color: #B52025;
+   background-color:  #b52025;
    padding: 4px 8px;
    transition: background-colour 0.3s;
 }
@@ -58,29 +64,34 @@ nav ul li .active {
 }
 
 .more a {
-   border: #B52025 1px solid;
+   border:  #b52025 1px solid;
    border-radius: 3px;
-   color: #B52025;
+   color:  #b52025;
    padding: 4px 8px;
    transition: border 0.3s;
 }
 
 .more a:hover {
    border: #d46669 solid 1px;
-   text-decoration: underline;
+   text-decoration: none;
 }
 
 .more a::after {
    content:"»";
 }
 
-input[type=text] {
-   background-color:#E2C7C8;
+#email {
+   background-color:#fdeaeb;
 }
 
 input[type=submit] {
-   background-color: #B52025;
+   background-color:  #b52025;
    color: #dfdfdf;
+}
+
+input[type=submit]:hover {
+   background-color:  #db777a;
+   text-decoration: underline;
 }
 /* ... */
 
@@ -94,8 +105,8 @@ input[type=submit] {
 #banner {
    background-image: url("../img/home_section_thumb3.jpg");
    background-size: 100% 100%; 
-   border: #B52025 4px solid;
-   box-shadow: 10px 5px 5px #555151;
+   border: #b52025 4px solid;
+   box-shadow: 10px 5px 5px #dfdfdf;
    color: rgb(255, 255, 255);
   
 }
@@ -111,12 +122,22 @@ input[type=submit] {
    =========================================== */
 
 /* main styles here */
+section p {
+   text-align: justify;
+}
+
+h3 {
+   font-weight: 700;
+   text-transform: capitalize;
+}
+
 a {
    text-decoration: none;
 } 
 
 a:hover {
    text-decoration: underline;
+   color: #000;
 }
 
 #content {
@@ -144,7 +165,7 @@ img {
 /* footer styles here */
 footer {
    background:linear-gradient( #dfdfdf,  #d7d1d1);
-   transition: all 0.3px ease;
+   transition: background-color 0.3s ease;
 }
 
 footer:hover{

@@ -30,25 +30,39 @@
 main {
    display: flex;
 }
+
+main p {
+   text-align: justify;
+}
    
 /* left */
    
 .left {
    padding: 30px 15px 0 15px;
-   width: 640px;
+   width: 65%;
 }
    
 #gallery {
    display: flex;
    flex-wrap: wrap;
-   justify-content: space-between;
    margin: 35px 0;
+}
+
+#gallery a {
+   width: 23%;
+   margin-right:5px;
+
+}
+
+#gallery a img {
+   width: 100%;
 }
    
 /* right */
    
 .right {
    padding: 30px 15px 0 15px;
+   width: 30%;
 }
    
 .right h3 a {
@@ -61,7 +75,9 @@ main {
    text-decoration: none;
 }
    
-.featured_service img {
+.featured_service .thumb {
    float: left;
+   width: 30%;
+   margin-right:5px;   
 }
    

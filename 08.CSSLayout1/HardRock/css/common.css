@@ -50,6 +50,7 @@ h3 {
 
 p {
    margin-bottom: 20px;
+   text-align: justify;
 }
 
 a {
@@ -182,6 +183,7 @@ main {
 main p {
    color: #666;
    line-height: 20px;
+
 }
 
 /* ===========================================
@@ -189,10 +191,13 @@ main p {
    =========================================== */
 
 footer {
+   align-items: center;
    background-color: #fff;
    border-top: 2px solid #ebeceb;
    color: #666;
+   display: flex;
    font-size: 11px;
+   justify-content: space-between;
    padding: 15px;
 }
 
@@ -202,5 +207,10 @@ footer > div a {
    font-size: 11px;
 }
 #social_icons {
+   display: flex;
    list-style: none;
+}
+
+#social_icons li{
+margin-right: 15px;
 }

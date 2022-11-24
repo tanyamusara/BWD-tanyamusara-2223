@@ -26,8 +26,34 @@ address {
    padding: 30px 15px 0 15px;
 }
 
+#bottom_content {
+   display: flex;
+   justify-content: space-between;
+}
+
+#bottom_content .left {
+width: 50%;
+}
+
+
+
+.info__form p input {
+   width: 80%; 
+}
+
+.info__form p {
+   display: flex;
+   justify-content: space-between;
+}
+
+#inpMessage {
+   width: 80%;
+   height: 150px;
+}
+
 iframe {
    border: none;
+   width: 45%;
 }
 
 /* form */

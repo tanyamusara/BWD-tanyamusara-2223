@@ -1,0 +1,206 @@
+/**
+ * Common styles
+ *
+ * @author Rogier van der Linde <rogier.vanderlinde@kahosl.be>
+ *
+ */
+
+/* ===========================================
+   General
+   =========================================== */
+
+/* reset */
+
+* {
+   box-sizing: border-box; /* width and height include paddings and borders */
+   margin: 0; /* wipe out browser differences */
+   padding: 0; /* wipe out browser differences */ 
+}
+
+img {
+   border: 0;
+   max-width: 100%;
+}
+   
+body {
+   background-color: #f5f5f5;
+   font-family: Arial, Verdana, Tahoma;
+   font-size: 14px; 
+   line-height: 1.4;
+}
+
+/* elements */
+
+h1, h2, h3 {
+   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+h2 {
+   color: #333;
+   font-size: 24px;
+   font-weight: normal;
+   margin-bottom: 25px;
+}
+
+h3 {
+   font-size: 18px;
+   font-weight: normal;
+   margin-bottom: 20px;
+}
+
+p {
+   margin-bottom: 20px;
+}
+
+a {
+   color: #17a348;
+   text-decoration: none;
+}
+
+a:hover {
+   color: #14833b;
+   text-decoration: underline;
+}
+
+/* classes */
+
+a.lnk-cta {
+   font-size: 20px;
+}
+
+a.lnk-cta::after {
+   content: " »";
+}
+
+.btn-cta {
+   background-color: #17a348;
+   border-bottom: 3px solid rgba(0, 0, 0, 0.15);
+   border-radius: 3px;
+   color: #fff;
+   cursor: pointer;
+   display: inline-block;
+   font-size: 16px;
+   font-weight: 600;
+   padding: 8px 16px;   
+   text-decoration: none;
+   text-transform: uppercase;
+   transition: background 0.5s;
+   white-space: nowrap;
+}
+
+a.btn-cta {
+   text-decoration: none;
+}
+
+a.btn-cta:hover {
+   color: #fff;
+}
+
+.btn-cta:hover {
+   background-color: #14833b;
+}
+
+.wrapper {
+   margin-left: auto;
+   margin-right: auto;
+   width: 960px;
+}
+
+/* ===========================================
+   Header
+   =========================================== */
+
+header {
+   background: linear-gradient(0deg, rgba(200,200,200,1) 35%, rgba(240,240,240,1) 85%);
+   
+} 
+
+header .wrapper {
+   align-items: center;
+   display: flex;
+   justify-content: space-between;
+   padding: 20px 0;
+
+}  
+
+/* logo */
+
+.logo h1 {
+   font-size: 48px;
+}
+
+.logo h1 a {
+   color: #333;
+   font-family: 'Special Elite', cursive;
+}
+
+.logo h1 a:hover {
+   text-decoration: none;
+}
+
+.logo p {
+   font-size: 14px;
+   color: #555;
+   font-style: italic;
+}
+
+/* navigation */
+
+#mainmenu {
+   align-items: center;
+   display: flex;
+   list-style: none;
+}
+
+#mainmenu li {
+   margin-left: 1em;
+}
+
+#mainmenu a {
+   color: #000;
+   font-size: 17px;
+   text-transform: uppercase;
+}
+
+#mainmenu a:hover,
+#mainmenu .active a {
+   color: #14833b;
+   text-decoration: none;
+}
+
+/* ===========================================
+   Main content
+   =========================================== */
+
+/* general */
+
+main {
+   background-color: #fff;
+   padding-bottom: 50px;
+}
+
+main p {
+   color: #666;
+   line-height: 20px;
+}
+
+/* ===========================================
+   Footer
+   =========================================== */
+
+footer {
+   background-color: #fff;
+   border-top: 2px solid #ebeceb;
+   color: #666;
+   font-size: 11px;
+   padding: 15px;
+}
+
+footer > div a {
+   text-decoration: underline;
+   color: #666;
+   font-size: 11px;
+}
+#social_icons {
+   list-style: none;
+}

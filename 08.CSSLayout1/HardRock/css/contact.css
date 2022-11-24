@@ -1,0 +1,43 @@
+/* ===========================================
+   Main
+   =========================================== */
+
+/* top */
+
+#main_top {
+   padding: 30px 15px 0 15px;
+}
+
+#main_top h2 {
+   font-weight: bold;
+   text-transform: uppercase;
+}
+
+address {
+   font-size: 14px;
+   font-style: normal;
+   line-height: 1.6;
+   margin-bottom: 20px;
+}
+
+/* bottom */
+
+#main_bottom {
+   padding: 30px 15px 0 15px;
+}
+
+iframe {
+   border: none;
+}
+
+/* form */
+
+form label {
+   font-size: 16px;
+   font-style: italic;
+}
+
+form input {
+   padding: 7px;
+}
+

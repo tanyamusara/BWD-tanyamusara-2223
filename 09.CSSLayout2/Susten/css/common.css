@@ -1,0 +1,128 @@
+/**
+ * Common styles
+ *
+ * @author Tanya Musara<tanya.musara@student.odisee.be>
+ *
+ */
+
+:root {
+    --green:#66BB44;
+    --blue:#50A6D9;
+    --black:#222222;
+    --light-bleu:#D8F2FD;
+    --white:#FFFFFF;
+}
+
+/* ===========================================
+   General
+   =========================================== */
+@font-face {
+    font-family: fa;
+    src: url(../fonts/Lucida\ Grande\ Regular.ttf);
+}
+
+/* reset */
+
+* {
+    box-sizing: border-box; /* width and height include paddings and borders */
+    margin: 0; /* wipe out browser differences */
+    padding: 0; /* wipe out browser differences */ 
+}
+
+img {
+    border: 0;
+    max-width: 100%;
+}
+   
+body {
+    background-color: #f5f5f5;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif, Tahoma;
+    font-size: 14px; 
+    line-height: 1.6;
+}
+
+
+/* elements */
+
+h1, h2, h3, h5, h6 {
+    font-family: 'Manjari', sans-serif,Arial, Helvetica;
+    color: var(--blue);
+}
+
+
+p {
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* classes */
+
+.wrapper {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+
+/* header */
+header {
+    padding: 3em 0;
+}
+
+header .wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* logo */
+.logo h1 {
+    font-size: 48px;
+}
+
+
+/* navigation */
+#mainnav ul {
+    align-items: center;
+    display: flex;
+    list-style: none;
+}
+
+#mainnav li {
+    margin-left: 1em;
+}
+
+#mainnav li a {
+    color: var(--green);
+    font-size: 17px;
+    padding: 4px 8px;
+}
+
+#mainnav li a:hover {
+    color:#fff;
+    background-color: var(--green);
+    
+    text-decoration: none;
+
+}
+
+#mainnav li:hover {
+    
+}
+
+#mainnav .active a {
+    background-color: var(--green);
+    color: var(--white);
+    padding: 4px 8px;
+}
+
+
+/* main */
+
+
+
+/* footer */
+

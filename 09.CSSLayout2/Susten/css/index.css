@@ -1,0 +1,86 @@
+/**
+ * Common styles
+ *
+ * @author Tanya Musara <tanya.musara@student.odisee.be>
+ *
+ */
+
+:root {
+    --green:#66BB44;
+    --blue:#50A6D9;
+    --black:#222222;
+    --light-bleu:#D8F2FD;
+    --white:#FFFFFF;
+}
+
+#banner {
+    background-image: url(../img/header.jpg);
+    background-size:cover;
+    padding: 140px 0 60px 50%;
+}
+
+ 
+.banner_content h2, .banner_content p {
+    color: var(--white);
+}
+
+.banner__content h2 {
+    font-size: 2em;
+}
+
+.banner__content p {
+    font-size: 1.8em;
+}
+ 
+main h2 {
+    margin: 1.2rem 0;
+    font-size: 2rem;
+}
+
+
+.commitments {
+    margin-top: 2em;
+    padding-bottom: 4em;
+}
+
+.commitments article {
+    width: 30%;
+    margin-right: 2em;
+}
+
+.commitments article img {
+    height: 40%;
+}
+
+.commitments article a::after {
+    content: "►";
+}
+.commitments article a {
+    color: var(--blue);
+    margin-top: 0.8em;
+}
+ 
+.commitments__articles {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.stakeholders {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.stakeholders div{
+    margin-right:2em;
+    width: 30%;
+ 
+}
+.stakeholders iframe {
+width: 100%;
+}
+
+.report {
+
+}

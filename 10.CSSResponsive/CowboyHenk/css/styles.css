@@ -1,0 +1,405 @@
+/**
+ * Styles for The Lonely Cowboy
+ *
+ * @author Rogier van der Linde
+ *
+ */
+
+
+/* ===========================================
+   Reset
+   =========================================== */
+
+img {
+   border: 0;
+}
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+   
+/* ===========================================
+   General
+   =========================================== */
+
+body {
+	background-color: #f1f1f1;
+	color: #000;
+	font-family: "Raleway", sans-serif;
+	font-size: 15px; 
+	line-height: 1.5;
+}
+
+.wrapper {
+	margin: 0 auto;
+	min-width: 240px;
+	max-width: 1200px;
+}
+
+a {
+	color: #982216;
+	text-decoration: none;
+}
+
+a:hover, a:focus {
+	text-decoration: none;
+}
+
+img {
+	width: 100%;
+}
+
+ul {
+	list-style: none;
+}
+
+
+/* ===========================================
+   Header
+   =========================================== */
+
+header {
+	padding: 32px 16px;
+}
+
+header > h1 {
+	font-size: 36px;
+	font-weight: bold;
+	margin: 10px 0;
+	text-align: center;
+}
+
+header .inverted {
+	background-color: #000;
+	color: #fff;
+	padding: 0 8px;
+}
+
+@keyframes bummer {
+	0% {
+		transform: scale(0,0); 
+	}
+}
+
+header p {
+	margin: 15px 0;
+	text-align: center;
+	-webkit-animation: bummer 2s;
+	animation: bummer 2s;
+	-webkit-transform: scale(1,1); 
+	transform: scale(1,1);
+}
+
+
+/* ===========================================
+   Nav
+   =========================================== */
+
+nav {
+	padding-bottom: 16px;
+}
+
+nav ul {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+
+nav li.active {
+	background-color: #ccc;
+}
+
+nav li:hover {
+	background-color: #fff;
+}
+
+nav li a {
+	color: #000;
+	display: block;
+	padding: 8px 16px;
+}
+
+/* ===========================================
+   Cards
+   =========================================== */
+
+.card {
+	background: #fff;
+	box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+	margin: 32px 16px;
+}
+
+.card .container {
+	padding: 10px 16px 16px 16px;
+}
+
+.card .content {
+	margin: 24px 0;
+}
+
+
+/* ===========================================
+   Main
+   =========================================== */
+
+main {
+	display: flex;
+}
+#blogentries {
+	max-width: 800px;
+}   
+aside {
+	max-width: 400px;
+}
+
+/* =========================
+Media queries Main
+=============================*/
+
+
+/* ===========================================
+   Blog entries
+   =========================================== */
+
+.entry h1 {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.entry .subtitle {
+	font-size: 18px;
+	margin: 10px 0;
+}
+
+.entry .date {
+	opacity: 0.60;
+}
+
+.entry_footer {
+	display: flex;
+	justify-content: space-between;
+}
+
+.entry .button {
+	border: 1px solid #ccc;
+	padding: 12px 24px;
+}
+
+.entry .button:hover {
+	background-color: #ccc;
+}
+
+.entry .button a {
+	color: #000;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.entry .badge, 
+.entry .tag {
+	background-color: #000;
+	color: #fff;
+	display: inline-block;
+	font-weight: normal;
+	margin-left: 8px;
+	padding: 0 8px;
+	text-align: center;
+}
+
+.entry .badge {
+	border-radius: 50%;
+}
+
+.entry .comments {
+	font-weight: bold;
+	padding: 12px 24px;
+}
+
+
+
+/* ===========================================
+   CV
+   =========================================== */
+
+.cv h3 {
+	font-size: 20px;
+}
+
+.cv .content {
+	margin: 15px 0 10px 0;
+}
+
+
+/* ===========================================
+   Popular
+   =========================================== */
+
+.popular li img {
+	float: left;
+	margin-right: 16px;
+	width: 50px;
+}
+
+.popular li {
+	border-bottom: 1px solid #ddd;
+	padding: 16px;
+}
+
+.popular li:hover {
+	background-color: #ccc;
+}
+
+.popular img + p {
+	font-size: 18px;
+}
+
+.popular h3, 
+#tags h3 {
+	background-color: #f1f1f1;
+	font-size: 20px;
+	font-weight: 400;
+	padding: 16px;
+}
+
+
+/* ===========================================
+   Tags
+   =========================================== */
+
+#tags ul {
+	margin: 16px;
+}
+
+#tags li {
+	background-color: #f1f1f1;
+	display: inline-block;
+	margin-bottom: 16px;
+
+}
+
+#tags li a {
+	color: #000;
+	font-size: 12px;
+	padding: 0 8px;
+}
+
+
+/* ===========================================
+   Footer
+   =========================================== */
+
+
+.site_footer {
+	background-color: #616161;
+	color: #fff;
+}
+
+.site_footer a {
+	color: #fff;
+}
+
+.site_footer .wrapper {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 16px;
+	padding: 32px 16px;
+}
+
+.site_footer .buttons, 
+.site_footer .social {
+	margin: 0;
+	text-align: center;
+}
+
+.site_footer .buttons a {
+	background-color: #000;
+	color: #000;
+	display: inline-block;
+	padding: 12px 24px;
+	color: #fff;
+}
+
+.site_footer .buttons a:hover {
+	background-color: #ccc;
+	color: #000;
+}
+
+.site_footer .buttons a.inactive {
+	cursor: not-allowed;
+	opacity: 0.3;
+}
+
+.site_footer .social {
+	text-align: right;
+	margin-top: 32px;
+}
+
+.site_footer .social a  {
+	font-size: 21px;
+}
+
+.site_footer .social a + a {
+	padding-left: 15px;
+}
+
+.site_footer .social p + p {
+	margin-top: 3px;
+}
+
+/* ===========================================
+   Media queries
+   =========================================== */
+/* smalle toestelen */
+@media (min-width:0px) {
+	/* nav */
+nav ul {
+	display: flex;
+	flex-direction: column;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+}
+
+/* cards */
+.comments {
+	display: none;
+}
+
+/* footer 
+*/
+.site_footer .wrapper {
+flex-direction: column;
+}
+
+.site_footer .social {
+	text-align: center;
+}
+
+}
+
+@media (min-width:400px) {
+
+/* cards */
+.comments {
+	display: block;
+}
+}
+
+@media (min-width:660px) {
+nav ul {
+	display: flex;
+	flex-direction: row;
+}
+}
+
+@media (min-width:960px) {
+/* main */
+
+}
+
+

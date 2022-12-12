@@ -11,13 +11,14 @@
    =========================================== */
 
 img {
-   border: 0;
+	border: 0;
+	width: 100%;
 }
 
 * {
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
    
 /* ===========================================
@@ -27,7 +28,7 @@ img {
 body {
 	background-color: #f1f1f1;
 	color: #000;
-	font-family: "Raleway", sans-serif;
+	font-family: Raleway, sans-serif;
 	font-size: 15px; 
 	line-height: 1.5;
 }
@@ -47,9 +48,6 @@ a:hover, a:focus {
 	text-decoration: none;
 }
 
-img {
-	width: 100%;
-}
 
 ul {
 	list-style: none;
@@ -319,7 +317,6 @@ Media queries Main
 	color: #000;
 	display: inline-block;
 	padding: 12px 24px;
-	color: #fff;
 }
 
 .site_footer .buttons a:hover {
@@ -352,54 +349,35 @@ Media queries Main
 /* ===========================================
    Media queries
    =========================================== */
-/* smalle toestelen */
-@media (min-width:0px) {
+@media (max-width:420px) {
 	/* nav */
-nav ul {
-	display: flex;
-	flex-direction: column;
-}
+	nav ul {
+		display: flex;
+		flex-direction: column;
+	}
 
-main {
-	display: flex;
-	flex-direction: column;
-}
+	main {
+		display: flex;
+		flex-direction: column;
+	}
 
-/* cards */
-.comments {
-	display: none;
-}
+	/* cards */
+	.comments {
+		display: none;
+	}
 
-/* footer 
+	/* footer 
 */
-.site_footer .wrapper {
-flex-direction: column;
+	.site_footer .wrapper {
+		flex-direction: column;
+	}
+
+	.site_footer .social {
+		text-align: center;
+	}
 }
 
-.site_footer .social {
-	text-align: center;
-}
 
-}
 
-@media (min-width:400px) {
-
-/* cards */
-.comments {
-	display: block;
-}
-}
-
-@media (min-width:660px) {
-nav ul {
-	display: flex;
-	flex-direction: row;
-}
-}
-
-@media (min-width:960px) {
-/* main */
-
-}
 
 

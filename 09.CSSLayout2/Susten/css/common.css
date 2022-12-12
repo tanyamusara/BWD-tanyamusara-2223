@@ -6,9 +6,9 @@
  */
 
 :root {
-    --green:#66BB44;
-    --blue:#50A6D9;
     --black:#222222;
+    --blue:#50A6D9;
+    --green:#66BB44;
     --light-bleu:#D8F2FD;
     --white:#FFFFFF;
 }
@@ -17,7 +17,7 @@
    General
    =========================================== */
 @font-face {
-    font-family: fa;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     src: url(../fonts/Lucida\ Grande\ Regular.ttf);
 }
 
@@ -45,7 +45,7 @@ body {
 /* elements */
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Manjari', sans-serif,Arial, Helvetica;
+    font-family: Manjari, sans-serif,Arial, Helvetica;
     color: var(--blue);
 }
 
@@ -109,10 +109,6 @@ header .wrapper {
 
 }
 
-#mainnav li:hover {
-    
-}
-
 #mainnav .active a {
     background-color: var(--green);
     color: var(--white);
@@ -121,9 +117,9 @@ header .wrapper {
 
 /* footer */
 footer {
-background-color: var(--black);
- color: var(--white);
- margin-top: 3em;
+    background-color: var(--black);
+    color: var(--white);
+    margin-top: 3em;
 }
 
 footer .wrapper{
@@ -143,8 +139,8 @@ footer .wrapper{
 
 
 footer .newsletter input {
-margin-left: 5px;
-padding: 6px 12px;
+    margin-left: 5px;
+    padding: 6px 12px;
 }
 
 footer .newletter label {

@@ -1,0 +1,119 @@
+/**
+ * Common styles
+ *
+ * @author Tanya Musara <tanya.musara@student.odisee.be>
+ *
+ */
+
+:root {
+    --black:#222222;
+    --blue:#50A6D9;
+    --green:#66BB44;
+    --light-bleu:#D8F2FD;
+    --white:#FFFFFF;
+}
+
+#banner {
+    background-image: url(../img/header.jpg);
+    background-size:cover;
+    padding: 140px 0 60px 50%;
+}
+
+ 
+.banner_content h2, .banner_content p {
+    color: var(--white);
+}
+
+.banner__content h2 {
+    font-size: 2em;
+}
+
+.banner__content p {
+    font-size: 1.8em;
+}
+ 
+main h2 {
+    font-size: 1.8em;
+    margin: 0.8em 0 0.5em 0;
+}
+
+
+.commitments {
+    margin-top: 2em;
+    padding-bottom: 4em;
+}
+
+.article {
+    width: 30%;
+    margin-right: 2em;
+}
+
+.article p {
+    margin: 5px 0;
+    line-height: 2;
+}
+
+.articles  img {
+    height: 40%;
+}
+
+.article a::after {
+    content: "►";
+}
+.article a {
+    color: var(--blue);
+    margin-top: 0.8em;
+}
+ 
+.commitments__articles {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.stakeholders {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.stakeholders div{
+    margin-right:2em;
+    width: 30%;
+ 
+}
+
+.stakeholders_members h4{
+    font-size: 1.2em;
+}
+
+.stakeholders_members a {
+    color: var(--blue);
+}
+
+.stakeholders_members a::after {
+    content:"► ►";
+}
+
+
+
+
+.stakeholders iframe {
+    width: 100%;
+}
+
+.report {
+    background-color: var(--light-bleu);
+    border: 1px solid var(--blue);
+    padding: 1em;
+ 
+}
+
+.report p a {
+    color: var(--blue);
+    text-decoration: underline;
+}
+
+ .report h5 {
+    font-size: 1.2em;
+ }

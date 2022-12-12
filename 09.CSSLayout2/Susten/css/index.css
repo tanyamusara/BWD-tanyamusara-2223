@@ -6,9 +6,9 @@
  */
 
 :root {
-    --green:#66BB44;
-    --blue:#50A6D9;
     --black:#222222;
+    --blue:#50A6D9;
+    --green:#66BB44;
     --light-bleu:#D8F2FD;
     --white:#FFFFFF;
 }
@@ -33,8 +33,8 @@
 }
  
 main h2 {
-    margin: 0.8em 0 0.5em 0;
     font-size: 1.8em;
+    margin: 0.8em 0 0.5em 0;
 }
 
 
@@ -43,19 +43,24 @@ main h2 {
     padding-bottom: 4em;
 }
 
-.commitments article {
+.article {
     width: 30%;
     margin-right: 2em;
 }
 
-.commitments article img {
+.article p {
+    margin: 5px 0;
+    line-height: 2;
+}
+
+.articles  img {
     height: 40%;
 }
 
-.commitments article a::after {
+.article a::after {
     content: "►";
 }
-.commitments article a {
+.article a {
     color: var(--blue);
     margin-top: 0.8em;
 }
@@ -79,7 +84,7 @@ main h2 {
 }
 
 .stakeholders_members h4{
-font-size: 1.2em;
+    font-size: 1.2em;
 }
 
 .stakeholders_members a {
@@ -94,13 +99,13 @@ font-size: 1.2em;
 
 
 .stakeholders iframe {
-width: 100%;
+    width: 100%;
 }
 
 .report {
- background-color: var(--light-bleu);
- border: 1px solid var(--blue);
- padding: 1em;
+    background-color: var(--light-bleu);
+    border: 1px solid var(--blue);
+    padding: 1em;
  
 }
 
@@ -108,3 +113,7 @@ width: 100%;
     color: var(--blue);
     text-decoration: underline;
 }
+
+ .report h5 {
+    font-size: 1.2em;
+ }

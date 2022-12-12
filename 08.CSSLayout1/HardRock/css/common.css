@@ -24,7 +24,7 @@ img {
    
 body {
    background-color: #f5f5f5;
-   font-family: Arial, Verdana, 'Tahoma';
+   font-family: Arial, Verdana, Tahoma, sans-serif;
    font-size: 14px; 
    line-height: 1.4;
 }
@@ -203,8 +203,8 @@ footer {
 
 footer > div a {
    color: #666;
-   text-decoration: underline;
    font-size: 11px;
+   text-decoration: underline;
 }
 #social_icons {
    display: flex;

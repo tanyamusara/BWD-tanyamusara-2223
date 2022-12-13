@@ -45,7 +45,6 @@ main h2 {
 
 .article {
     width: 30%;
-    margin-right: 2em;
 }
 
 .article p {
@@ -53,7 +52,7 @@ main h2 {
     line-height: 2;
 }
 
-.articles  img {
+.article  img {
     height: 40%;
 }
 
@@ -65,22 +64,27 @@ main h2 {
     margin-top: 0.8em;
 }
  
+.commitments__articles :last-child {
+    margin-right: 0;
+}
+
 .commitments__articles {
     align-items: center;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 
 .stakeholders {
+    align-items: center;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .stakeholders div{
-    margin-right:2em;
     width: 30%;
- 
 }
 
 .stakeholders_members h4{
@@ -102,6 +106,10 @@ main h2 {
     width: 100%;
 }
 
+.stakeholders :last-child {
+    margin-right: 0;
+}
+
 .report {
     background-color: var(--light-bleu);
     border: 1px solid var(--blue);
@@ -114,6 +122,55 @@ main h2 {
     text-decoration: underline;
 }
 
- .report h5 {
+.report h5 {
     font-size: 1.2em;
- }
+}
+
+/* Media Queries */
+
+/* 600px */
+@media (max-width:37.5em) { 
+    /* commitment articles */
+    .commitments__articles {
+        flex-direction: column;
+        padding: 0 1.5em;
+    }
+
+    .stakeholders {
+        flex-direction: column;
+        padding: 0 1.5em;
+    }
+    .stakeholders div{
+        margin-top: 1em;
+        width: 100%;
+    }
+
+    .article {
+        width: 100%;
+        margin-top: 1.5em;
+    }
+
+    .article  img {
+        height: 40%;
+        width: 100%;
+    }
+
+}
+
+@media (min-width:37.5em) {
+    .commitments {
+        padding: 0 1em;
+    }
+
+    .stakeholders {
+        padding: 0 1em;
+    }
+}
+
+@media (max-width:52.7em) {
+    /* banner */
+    #banner {
+        padding: 140px 0 60px 15%;
+    }
+
+}

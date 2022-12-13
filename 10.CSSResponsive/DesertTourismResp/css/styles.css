@@ -85,3 +85,13 @@ footer {
     display: flex;
     justify-content: space-between;
 }
+
+@media (max-width:41.25em) {
+    /* header */
+    header nav ul {
+        flex-direction: column;
+    }
+
+    /* doormate */
+
+}

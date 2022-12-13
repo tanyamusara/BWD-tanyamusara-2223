@@ -1,7 +1,7 @@
 /**
  * Common styles
  *
- * @author Tanya Musara<tanya.musara@student.odisee.be>
+ * @author Tanya Musara <tanya.musara@student.odisee.be>
  *
  */
 
@@ -62,7 +62,7 @@ a {
 /* classes */
 
 .wrapper {
-    max-width: 1024px;
+    max-width: 960px;
     margin: 0 auto;
 }
 
@@ -137,41 +137,72 @@ footer .wrapper{
     color: var(--white);
 }
 
+.contact p a::after {
+    content: '|';
+}
+
+.contact p :last-child::after {
+    content: none;
+}
+
 
 footer .newsletter input {
     margin-left: 5px;
     padding: 6px 12px;
 }
 
-footer .newletter label {
+footer .newsletter label {
     font-weight: 400;
 }
 
 
 /* media queries */
-@media (max-width:22.5em) {
+@media (max-width:52.7em) {
     /* header */
 
     header {
         padding:0.5em;
     }
+
     header .wrapper {
         align-items: flex-start;
-        flex-direction: column;
-        text-align: left;
+        display: block;
+        justify-content: left;
     }
 
     #mainnav ul {
         display: block;
-        flex-direction: column;
-        
     }
 
     #mainnav li {
-        margin: 0;
+        margin: 0.3em 0 0 0;
+        
     }
 
     #mainnav li a{
         display: block;
     }
+
 }
+
+@media (max-width:60em) {
+
+     /* footer */
+    footer .wrapper {
+        display: block;
+    }
+
+   footer .newsletter {
+        margin: 2em 0 0 0;
+    }
+
+    .contact p a {
+        display: block;
+    }
+
+    .contact p a::after {
+        content: none;
+    }
+    
+}
+

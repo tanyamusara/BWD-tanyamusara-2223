@@ -59,8 +59,8 @@ header {
    padding: 20px 20px;
 }
 
-header {
-   height: 150px;
+#logo img {
+   width: 100%;
 }
 
 #logo span {

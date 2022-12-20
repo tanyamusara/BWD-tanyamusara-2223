@@ -1,0 +1,37 @@
+/**
+ * Menu styles
+ *
+ * @author Tanya Musara <tanya.musara@student.odisee.be>
+ *
+ */
+
+ /* navigation */
+#mainnav ul {
+    align-items: center;
+    display: flex;
+    list-style: none;
+}
+
+#mainnav li {
+    margin-left: 1em;
+}
+
+#mainnav li a {
+    color: var(--green);
+    font-size: 17px;
+    padding: 4px 8px;
+}
+
+#mainnav li a:hover {
+    color:#fff;
+    background-color: var(--green);
+    
+    text-decoration: none;
+
+}
+
+#mainnav .active a {
+    background-color: var(--green);
+    color: var(--white);
+    padding: 4px 8px;
+}

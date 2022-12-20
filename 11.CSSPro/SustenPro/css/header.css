@@ -1,0 +1,56 @@
+/**
+ * Header styles
+ *
+ * @author Tanya Musara <tanya.musara@student.odisee.be>
+ *
+ */
+
+/* header */
+header {
+    padding: 3em 0;
+}
+
+header .wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* logo */
+.logo h1 {
+    font-size: 48px;
+}
+
+.logo h1 span {
+    display: none;
+}
+/* ========= */
+
+/* Media queries */
+@media (max-width:52.7em) {
+    /* header */
+
+    header {
+        padding:0.5em;
+    }
+
+    header .wrapper {
+        align-items: flex-start;
+        display: block;
+        justify-content: left;
+    }
+
+    #mainnav ul {
+        display: block;
+    }
+
+    #mainnav li {
+        margin: 0.3em 0 0 0;
+        
+    }
+
+    #mainnav li a{
+        display: block;
+    }
+
+}

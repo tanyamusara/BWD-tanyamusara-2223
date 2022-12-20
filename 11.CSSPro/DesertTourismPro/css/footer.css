@@ -1,0 +1,25 @@
+/**
+ * Footer styles for Desert tourism
+ *
+ * @author Tanya Musara
+ *
+ */
+
+/* FOOTER */
+footer {
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer p {
+    margin: 0;
+}
+/* ======= */

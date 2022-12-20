@@ -1,0 +1,83 @@
+/* ===========================================
+   Banner
+   =========================================== */
+
+#banner {
+   background-image: url(../img/banner.jpg);
+   background-size: cover;
+}
+   
+.banner_box {
+   padding: 120px 0 60px 0;
+}
+   
+.banner_box .btn-cta {
+   font-size: 18px;
+   padding: 14px 60px;   
+}
+   
+.banner_box p {
+   color: white;
+   font-size: 30px;
+   font-weight: bold;
+   margin-bottom: 30px;
+}
+   
+/* ===========================================
+      Main
+      =========================================== */
+   
+main {
+   display: flex;
+}
+
+main p {
+   text-align: justify;
+}
+   
+/* left */
+   
+.left {
+   padding: 30px 15px 0 15px;
+   width: 65%;
+}
+   
+#gallery {
+   display: flex;
+   flex-wrap: wrap;
+   margin: 35px 0;
+}
+
+#gallery a {
+   margin-right:5px;
+   width: 23%;
+
+}
+
+#gallery a img {
+   width: 100%;
+}
+   
+/* right */
+   
+.right {
+   padding: 30px 15px 0 15px;
+   width: 30%;
+}
+   
+.right h3 a {
+   border-bottom: 1px solid #cccccc;
+   color: #333;
+}
+   
+.right h3 a:hover {
+   color: #be0a35;
+   text-decoration: none;
+}
+   
+.featured_service .thumb {
+   float: left;
+   margin-right:5px;   
+   width: 30%;
+}
+   

@@ -1,0 +1,33 @@
+/**
+ * Common styles
+ *
+ * @author Tanya Musara <tanya.musara@student.odisee.be>
+ *
+ */
+
+:root {
+    --black:#222222;
+    --blue:#50A6D9;
+    --green:#66BB44;
+    --light-bleu:#D8F2FD;
+    --white:#FFFFFF;
+}
+
+#banner {
+    background-image: url(../img/header.jpg);
+    background-size:cover;
+    padding: 140px 0 60px 50%;
+}
+
+ 
+.banner_content h2, .banner_content p {
+    color: var(--white);
+}
+
+.banner__content h2 {
+    font-size: 2em;
+}
+
+.banner__content p {
+    font-size: 1.8em;
+}
